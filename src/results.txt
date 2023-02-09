@@ -1,0 +1,591 @@
+Memory total: 	7934300 kB
+
+Time 00:20:50
+Free:      			3658596 kB
+Available: 			5361368 kB
+Occupied: 	2572932 kB
+
+Time 00:21:00
+Free:      			3676804 kB
+Available: 			5379612 kB
+Occupied: 	2554688 kB
+
+Time 00:21:10
+Free:      			3676076 kB
+Available: 			5378896 kB
+Occupied: 	2555404 kB
+
+Time 00:21:20
+Free:      			3684168 kB
+Available: 			5387008 kB
+Occupied: 	2547292 kB
+
+Time 00:21:30
+Free:      			3685108 kB
+Available: 			5388004 kB
+Occupied: 	2546296 kB
+
+Time 00:21:41
+Free:      			3688236 kB
+Available: 			5391140 kB
+Occupied: 	2543160 kB
+
+Time 00:21:51
+Free:      			3702632 kB
+Available: 			5405540 kB
+Occupied: 	2528760 kB
+
+Time 00:22:01
+Free:      			3702156 kB
+Available: 			5405088 kB
+Occupied: 	2529212 kB
+
+Time 00:22:11
+Free:      			3687544 kB
+Available: 			5390508 kB
+Occupied: 	2543792 kB
+
+Time 00:22:22
+Free:      			3676760 kB
+Available: 			5379732 kB
+Occupied: 	2554568 kB
+
+Time 00:22:32
+Free:      			4506996 kB
+Available: 			6207136 kB
+Occupied: 	1727164 kB
+
+Time 00:22:42
+Free:      			4503000 kB
+Available: 			6203140 kB
+Occupied: 	1731160 kB
+
+Time 00:22:52
+Free:      			4510588 kB
+Available: 			6210736 kB
+Occupied: 	1723564 kB
+
+Time 00:23:03
+Free:      			4492444 kB
+Available: 			6192620 kB
+Occupied: 	1741680 kB
+
+Time 00:23:13
+Free:      			4493968 kB
+Available: 			6194148 kB
+Occupied: 	1740152 kB
+
+Time 00:23:23
+Free:      			4501292 kB
+Available: 			6201504 kB
+Occupied: 	1732796 kB
+
+Time 00:23:33
+Free:      			4486968 kB
+Available: 			6187196 kB
+Occupied: 	1747104 kB
+
+Time 00:23:44
+Free:      			4532680 kB
+Available: 			6233012 kB
+Occupied: 	1701288 kB
+
+Time 00:23:54
+Free:      			4241692 kB
+Available: 			6076712 kB
+Occupied: 	1857588 kB
+
+Time 00:24:04
+Free:      			4225300 kB
+Available: 			6060536 kB
+Occupied: 	1873764 kB
+
+Time 00:24:14
+Free:      			4301788 kB
+Available: 			6139772 kB
+Occupied: 	1794528 kB
+
+Time 00:24:25
+Free:      			4367024 kB
+Available: 			6205024 kB
+Occupied: 	1729276 kB
+
+Time 00:24:35
+Free:      			4048032 kB
+Available: 			6120348 kB
+Occupied: 	1813952 kB
+
+Time 00:24:45
+Free:      			4036724 kB
+Available: 			6109040 kB
+Occupied: 	1825260 kB
+
+Time 00:24:55
+Free:      			4044032 kB
+Available: 			6116368 kB
+Occupied: 	1817932 kB
+
+Time 00:25:05
+Free:      			4041624 kB
+Available: 			6113968 kB
+Occupied: 	1820332 kB
+
+Time 00:25:16
+Free:      			4045688 kB
+Available: 			6118072 kB
+Occupied: 	1816228 kB
+
+Time 00:25:26
+Free:      			4067880 kB
+Available: 			6140256 kB
+Occupied: 	1794044 kB
+
+Time 00:25:36
+Free:      			3992228 kB
+Available: 			6074728 kB
+Occupied: 	1859572 kB
+
+Time 00:25:46
+Free:      			4003584 kB
+Available: 			6086140 kB
+Occupied: 	1848160 kB
+
+Time 00:25:57
+Free:      			4011148 kB
+Available: 			6093724 kB
+Occupied: 	1840576 kB
+
+Time 00:26:07
+Free:      			4007372 kB
+Available: 			6089964 kB
+Occupied: 	1844336 kB
+
+Time 00:26:17
+Free:      			4114720 kB
+Available: 			6202576 kB
+Occupied: 	1731724 kB
+
+Time 00:26:27
+Free:      			3639760 kB
+Available: 			5718612 kB
+Occupied: 	2215688 kB
+
+Time 00:26:38
+Free:      			3486652 kB
+Available: 			5583040 kB
+Occupied: 	2351260 kB
+
+Time 00:26:48
+Free:      			3514548 kB
+Available: 			5610940 kB
+Occupied: 	2323360 kB
+
+Time 00:26:58
+Free:      			3510068 kB
+Available: 			5606524 kB
+Occupied: 	2327776 kB
+
+Time 00:27:08
+Free:      			3219876 kB
+Available: 			5330932 kB
+Occupied: 	2603368 kB
+
+Time 00:27:19
+Free:      			3272908 kB
+Available: 			5385120 kB
+Occupied: 	2549180 kB
+
+Time 00:27:29
+Free:      			3292888 kB
+Available: 			5405176 kB
+Occupied: 	2529124 kB
+
+Time 00:27:39
+Free:      			3205144 kB
+Available: 			5319596 kB
+Occupied: 	2614704 kB
+
+Time 00:27:49
+Free:      			3242560 kB
+Available: 			5357040 kB
+Occupied: 	2577260 kB
+
+Time 00:28:00
+Free:      			3660576 kB
+Available: 			5772072 kB
+Occupied: 	2162228 kB
+
+Time 00:28:10
+Free:      			4082752 kB
+Available: 			6194044 kB
+Occupied: 	1740256 kB
+
+Time 00:28:20
+Free:      			4108288 kB
+Available: 			6219584 kB
+Occupied: 	1714716 kB
+
+Time 00:28:30
+Free:      			4070136 kB
+Available: 			6181484 kB
+Occupied: 	1752816 kB
+
+Time 00:28:41
+Free:      			4083860 kB
+Available: 			6195344 kB
+Occupied: 	1738956 kB
+
+Time 00:28:51
+Free:      			4082632 kB
+Available: 			6194176 kB
+Occupied: 	1740124 kB
+
+Time 00:29:01
+Free:      			4082128 kB
+Available: 			6193688 kB
+Occupied: 	1740612 kB
+
+Time 00:29:11
+Free:      			4075136 kB
+Available: 			6186756 kB
+Occupied: 	1747544 kB
+
+Time 00:29:21
+Free:      			3895740 kB
+Available: 			6112968 kB
+Occupied: 	1821332 kB
+
+Time 00:29:32
+Free:      			3820940 kB
+Available: 			6124416 kB
+Occupied: 	1809884 kB
+
+Time 00:29:42
+Free:      			3832524 kB
+Available: 			6147320 kB
+Occupied: 	1786980 kB
+
+Time 00:29:52
+Free:      			3825128 kB
+Available: 			6139968 kB
+Occupied: 	1794332 kB
+
+Time 00:30:02
+Free:      			3846604 kB
+Available: 			6161444 kB
+Occupied: 	1772856 kB
+
+Time 00:30:13
+Free:      			3846888 kB
+Available: 			6161780 kB
+Occupied: 	1772520 kB
+
+Time 00:30:23
+Free:      			3846724 kB
+Available: 			6161632 kB
+Occupied: 	1772668 kB
+
+Time 00:30:33
+Free:      			3858960 kB
+Available: 			6173868 kB
+Occupied: 	1760432 kB
+
+Time 00:30:43
+Free:      			3858032 kB
+Available: 			6172944 kB
+Occupied: 	1761356 kB
+
+Time 00:30:54
+Free:      			3858032 kB
+Available: 			6172944 kB
+Occupied: 	1761356 kB
+
+Time 00:31:04
+Free:      			3877864 kB
+Available: 			6192928 kB
+Occupied: 	1741372 kB
+
+Time 00:31:14
+Free:      			3898572 kB
+Available: 			6213700 kB
+Occupied: 	1720600 kB
+
+Time 00:31:24
+Free:      			3896304 kB
+Available: 			6211480 kB
+Occupied: 	1722820 kB
+
+Time 00:31:35
+Free:      			3896304 kB
+Available: 			6211480 kB
+Occupied: 	1722820 kB
+
+Time 00:31:45
+Free:      			3886056 kB
+Available: 			6201256 kB
+Occupied: 	1733044 kB
+
+Time 00:31:55
+Free:      			4016820 kB
+Available: 			6332388 kB
+Occupied: 	1601912 kB
+
+Time 00:32:05
+Free:      			4024660 kB
+Available: 			6340236 kB
+Occupied: 	1594064 kB
+
+Time 00:32:16
+Free:      			4024660 kB
+Available: 			6340236 kB
+Occupied: 	1594064 kB
+
+Time 00:32:26
+Free:      			4015336 kB
+Available: 			6330936 kB
+Occupied: 	1603364 kB
+
+Time 00:32:36
+Free:      			4015084 kB
+Available: 			6330680 kB
+Occupied: 	1603620 kB
+
+Time 00:32:46
+Free:      			4015084 kB
+Available: 			6330680 kB
+Occupied: 	1603620 kB
+
+Time 00:32:57
+Free:      			4013824 kB
+Available: 			6329420 kB
+Occupied: 	1604880 kB
+
+Time 00:33:07
+Free:      			4013824 kB
+Available: 			6329420 kB
+Occupied: 	1604880 kB
+
+Time 00:33:17
+Free:      			4014832 kB
+Available: 			6330428 kB
+Occupied: 	1603872 kB
+
+Time 00:33:27
+Free:      			4014608 kB
+Available: 			6330204 kB
+Occupied: 	1604096 kB
+
+Time 00:33:37
+Free:      			4014608 kB
+Available: 			6330212 kB
+Occupied: 	1604088 kB
+
+Time 00:33:48
+Free:      			4032536 kB
+Available: 			6348148 kB
+Occupied: 	1586152 kB
+
+Time 00:33:58
+Free:      			4032536 kB
+Available: 			6348148 kB
+Occupied: 	1586152 kB
+
+Time 00:34:08
+Free:      			4032536 kB
+Available: 			6348148 kB
+Occupied: 	1586152 kB
+
+Time 00:34:18
+Free:      			4033136 kB
+Available: 			6348756 kB
+Occupied: 	1585544 kB
+
+Time 00:34:29
+Free:      			4015284 kB
+Available: 			6330920 kB
+Occupied: 	1603380 kB
+
+Time 00:34:39
+Free:      			4055804 kB
+Available: 			6371540 kB
+Occupied: 	1562760 kB
+
+Time 00:34:49
+Free:      			4055328 kB
+Available: 			6371072 kB
+Occupied: 	1563228 kB
+
+Time 00:34:59
+Free:      			4054824 kB
+Available: 			6370564 kB
+Occupied: 	1563736 kB
+
+Time 00:35:10
+Free:      			4053844 kB
+Available: 			6369608 kB
+Occupied: 	1564692 kB
+
+Time 00:35:20
+Free:      			4053844 kB
+Available: 			6369608 kB
+Occupied: 	1564692 kB
+
+Time 00:35:30
+Free:      			4053844 kB
+Available: 			6369600 kB
+Occupied: 	1564700 kB
+
+Time 00:35:40
+Free:      			4053844 kB
+Available: 			6369608 kB
+Occupied: 	1564692 kB
+
+Time 00:35:51
+Free:      			4053844 kB
+Available: 			6369624 kB
+Occupied: 	1564676 kB
+
+Time 00:36:01
+Free:      			4053844 kB
+Available: 			6369624 kB
+Occupied: 	1564676 kB
+
+Time 00:36:11
+Free:      			4045052 kB
+Available: 			6360848 kB
+Occupied: 	1573452 kB
+
+Time 00:36:21
+Free:      			4045052 kB
+Available: 			6360864 kB
+Occupied: 	1573436 kB
+
+Time 00:36:32
+Free:      			3998052 kB
+Available: 			6330560 kB
+Occupied: 	1603740 kB
+
+Time 00:36:42
+Free:      			3987304 kB
+Available: 			6319812 kB
+Occupied: 	1614488 kB
+
+Time 00:36:52
+Free:      			3977264 kB
+Available: 			6309776 kB
+Occupied: 	1624524 kB
+
+Time 00:37:02
+Free:      			3865444 kB
+Available: 			6198036 kB
+Occupied: 	1736264 kB
+
+Time 00:37:13
+Free:      			3866224 kB
+Available: 			6198844 kB
+Occupied: 	1735456 kB
+
+Time 00:37:23
+Free:      			3856664 kB
+Available: 			6189292 kB
+Occupied: 	1745008 kB
+
+Time 00:37:33
+Free:      			4025584 kB
+Available: 			6358848 kB
+Occupied: 	1575452 kB
+
+Time 00:37:43
+Free:      			4025080 kB
+Available: 			6358344 kB
+Occupied: 	1575956 kB
+
+Time 00:37:53
+Free:      			4015508 kB
+Available: 			6348780 kB
+Occupied: 	1585520 kB
+
+Time 00:38:04
+Free:      			4023328 kB
+Available: 			6356620 kB
+Occupied: 	1577680 kB
+
+Time 00:38:14
+Free:      			4023076 kB
+Available: 			6356376 kB
+Occupied: 	1577924 kB
+
+Time 00:38:24
+Free:      			4022824 kB
+Available: 			6356124 kB
+Occupied: 	1578176 kB
+
+Time 00:38:34
+Free:      			4022600 kB
+Available: 			6355900 kB
+Occupied: 	1578400 kB
+
+Time 00:38:45
+Free:      			4022600 kB
+Available: 			6355900 kB
+Occupied: 	1578400 kB
+
+Time 00:38:55
+Free:      			4022600 kB
+Available: 			6355900 kB
+Occupied: 	1578400 kB
+
+Time 00:39:05
+Free:      			4022600 kB
+Available: 			6355900 kB
+Occupied: 	1578400 kB
+
+Time 00:39:15
+Free:      			4022600 kB
+Available: 			6355908 kB
+Occupied: 	1578392 kB
+
+Time 00:39:26
+Free:      			4022600 kB
+Available: 			6355908 kB
+Occupied: 	1578392 kB
+
+Time 00:39:36
+Free:      			4022600 kB
+Available: 			6355908 kB
+Occupied: 	1578392 kB
+
+Time 00:39:46
+Free:      			4022600 kB
+Available: 			6355908 kB
+Occupied: 	1578392 kB
+
+Time 00:39:56
+Free:      			4022600 kB
+Available: 			6355908 kB
+Occupied: 	1578392 kB
+
+Time 00:40:07
+Free:      			4022600 kB
+Available: 			6355924 kB
+Occupied: 	1578376 kB
+
+Time 00:40:17
+Free:      			4022600 kB
+Available: 			6355940 kB
+Occupied: 	1578360 kB
+
+Time 00:40:27
+Free:      			4022600 kB
+Available: 			6355940 kB
+Occupied: 	1578360 kB
+
+Time 00:40:37
+Free:      			4022600 kB
+Available: 			6355940 kB
+Occupied: 	1578360 kB
+
+Time 00:40:48
+Free:      			4022376 kB
+Available: 			6355716 kB
+Occupied: 	1578584 kB

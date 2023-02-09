@@ -3,10 +3,10 @@
 #define TASK_STATE_FIELD state
 #define TASK_STATE_SPEC "%ld"
 
-#if LINUX_VERSION_CODE > KERNEL_VERSION(5,13,0)
-#define TASK_STATE_FIELD state
-#define TASK_STATE_SPEC "%d"
-#endif
+//#if LINUX_VERSION_CODE > KERNEL_VERSION(5,13,0)
+//#define TASK_STATE_FIELD state
+//#define TASK_STATE_SPEC "%d"
+//#endif
 
 static inline long convert_to_kb(const long n) {
     return n << (PAGE_SHIFT - 10);
@@ -29,9 +29,7 @@ void print_memory_statistics(struct seq_file *m) {
         show_int_message(m, "Free:      \t\t\t%ld kB\n", convert_to_kb(mem_info_array[i].free));
         show_int_message(m, "Available: \t\t\t%ld kB\n", convert_to_kb(mem_info_array[i].available));
 		sys_occupied = convert_to_kb(info.totalram) - convert_to_kb(mem_info_array[i].available);
-		apps_occupied = convert_to_kb(mem_info_array[i].available) - convert_to_kb(mem_info_array[i].free);
-		show_int_message(m, "Occupied by the system: \t%ld kB\n", sys_occupied);
-		show_int_message(m, "Occupied by applications: \t%ld kB\n", apps_occupied);
+		show_int_message(m, "Occupied: \t%ld kB\n", sys_occupied);
     }
 
     EXIT_LOG();
