@@ -1,0 +1,25 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{Введение}{4}{table.caption.1}%
+\contentsline {section}{\numberline {1}Аналитическая часть}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Постановка задачи}{5}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Основные понятия}{5}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Анализ методов решения}{6}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Файл /proc/meminfo}{6}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Структура struct sysinfo}{6}{subsubsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.4}Загружаемые модули ядра}{7}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Пространство ядра и пространство пользователя}{8}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Виртуальная файловая система /proc}{9}{subsection.1.6}%
+\contentsline {section}{\numberline {2}Конструкторская часть}{12}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Архитектура приложения}{12}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Базовые структуры}{12}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Разработка алгоритма}{12}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Технологическая часть}{15}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Выбор языка программирования}{15}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Информация о памяти в системе}{15}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Детали реализации}{16}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Исследовательская часть}{20}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Результаты работы разработанного ПО}{20}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Анализ результатов}{22}{subsection.4.2}%
+\contentsline {section}{Заключение}{23}{subsection.4.2}%
+\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{24}{subsection.4.2}%
+\contentsline {section}{ПРИЛОЖЕНИЕ А}{26}{subsection.4.2}%

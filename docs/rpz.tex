@@ -1,0 +1,244 @@
+%----------------------- Преамбула -----------------------
+\documentclass[ut8x, 14pt, oneside, a4paper]{extarticle}
+\usepackage{extsizes} % Для добавления в параметры класса документа 14pt
+
+% Для работы с несколькими языками и шрифтом Times New Roman по-умолчанию
+\usepackage[english,russian]{babel}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage[left=30mm,right=10mm,top=20mm,bottom=20mm]{geometry}
+\usepackage{misccorr}
+\usepackage{indentfirst}
+\usepackage{enumitem}
+\usepackage{pdfpages}
+\usepackage{placeins}
+%\usepackage{ragged2e}
+\setlength{\parindent}{1.25cm}
+%\setlength{\parskip}{1em} % поменять
+%\linespread{1.3}
+\renewcommand{\baselinestretch}{1.5}
+\setlist{nolistsep} % Отсутствие отступов между элементами \enumerate и \itemize
+
+% Дополнительное окружения для подписей
+\usepackage{array}
+\newenvironment{signstabular}[1][1]{
+	\renewcommand*{\arraystretch}{#1}
+	\tabular
+}{
+	\endtabular
+}
+
+% Переопределение стандартных \section, \subsection, \subsubsection по ГОСТу;
+% Переопределение их отступов до и после для 1.5 интервала во всем документе
+\usepackage{titlesec}
+
+\titleformat{\section}[block]
+{\bfseries\normalsize\filcenter}{\thesection}{1em}{}
+
+\titleformat{\subsection}[hang]
+{\bfseries\normalsize}{\thesubsection}{1em}{}
+\titlespacing\subsection{\parindent}{\parskip}{\parskip}
+
+\titleformat{\subsubsection}[hang]
+{\bfseries\normalsize}{\thesubsubsection}{1em}{}
+\titlespacing\subsubsection{\parindent}{\parskip}{\parskip}
+
+\newcommand{\specsection}[1]{\section*{#1}\addcontentsline{toc}{section}{#1}}
+\newcommand{\specsubsection}[1]{\subsection*{#1}\addcontentsline{toc}{subsection}{#1}}
+\newcommand{\specsubsubsection}[1]{\subsubsection*{#1}\addcontentsline{toc}{subsubsection}{#1}}
+
+% Работа с изображениями и таблицами; переопределение названий по ГОСТу
+\usepackage{caption}
+\captionsetup[figure]{name={Рисунок},labelsep=endash}
+\captionsetup[table]{singlelinecheck=false, labelsep=endash}
+
+\usepackage{graphicx}
+\usepackage{diagbox} % Диагональное разделение первой ячейки в таблицах
+
+% Цвета для гиперссылок и листингов
+\usepackage{color}
+
+% Гиперссылки \toc с кликабельностью
+\usepackage[linktoc=all]{hyperref}
+\hypersetup{hidelinks}
+
+% Листинги
+%\setsansfont{Arial}
+%\setmonofont{Courier New}
+
+\usepackage{color} % Цвета для гиперссылок и листингов
+%\definecolor{comment}{rgb}{0,0.5,0}
+%\definecolor{plain}{rgb}{0.2,0.2,0.2}
+%\definecolor{string}{rgb}{0.91,0.45,0.32}
+%\hypersetup{citecolor=blue}
+\hypersetup{citecolor=black}
+
+\newcommand{\anonsection}[1]{%
+	\section*{\centering#1}%
+	\addcontentsline{toc}{section}{#1}%
+}
+
+\usepackage{pgfplots}
+\pgfplotsset{width=7cm,compat=1.9}
+
+\usepackage{caption}
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox{white}{\parbox{\textwidth}{#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,justification=raggedright}
+\usepackage{listings}
+\lstset{
+	basicstyle=\footnotesize\ttfamily,
+	language=C, % Или другой ваш язык -- см. документацию пакета
+	numbers=left,
+	numbersep=5pt,
+	tabsize=2,
+	extendedchars=\true,
+	breaklines=true,
+	keywordstyle=\color{blue},
+	frame=single,
+	showspaces=false,
+	showtabs=false,
+	xleftmargin=17pt,
+	framexleftmargin=17pt,
+	framexrightmargin=-5pt,
+	framexbottommargin=4pt,
+	showstringspaces=false,
+	inputencoding=utf8x,
+	keepspaces=true
+}
+
+%\DeclareCaptionLabelSeparator{line}{\ --\ }
+%\DeclareCaptionFont{white}{\color{white}}
+%\DeclareCaptionFormat{listing}{\colorbox[cmyk]{0.43,0.35,0.35,0.01}{\parbox{\textwidth}{\hspace{15pt}#1#2#3}}}
+%\captionsetup[lstlisting]{
+	%	format=listing,
+	%	labelfont=white,
+	%	textfont=white,
+	%	singlelinecheck=false,
+	%	margin=0pt,
+	%	font={bf,footnotesize},
+	%	labelsep=line
+	%}
+
+\usepackage{ulem} % Нормальное нижнее подчеркивание
+\usepackage{hhline} % Двойная горизонтальная линия в таблицах
+\usepackage[figure,table]{totalcount} % Подсчет изображений, таблиц
+\usepackage{rotating} % Поворот изображения вместе с названием
+\usepackage{lastpage} % Для подсчета числа страниц
+
+\makeatletter
+\renewcommand\@biblabel[1]{#1.}
+\makeatother
+
+\usepackage{color}
+\usepackage[cache=false, newfloat]{minted}
+\newenvironment{code}{\captionsetup{type=listing}}{}
+\SetupFloatingEnvironment{listing}{name=Листинг}
+
+\usepackage{amsmath}
+\usetikzlibrary{datavisualization}
+\usetikzlibrary{datavisualization.formats.functions}
+\usepackage{csvsimple}
+
+% !TeX TXS-program:compile = txs:///lualatex/[--shell-escape]
+
+\begin{document}
+	\begin{titlepage}
+		\noindent\begin{minipage}{0.05\textwidth}
+			\includegraphics[scale=0.3]{inc/bmstu.png}
+		\end{minipage}
+		\hfill
+		\begin{minipage}{0.85\textwidth}\raggedleft
+			\begin{center}
+				\fontsize{12pt}{0.3\baselineskip}\selectfont \textbf{Министерство науки и высшего образования Российской Федерации \\ Федеральное государственное бюджетное образовательное учреждение \\ высшего образования \\ <<Московский государственный технический университет \\ имени Н.Э. Баумана \\ (национальный исследовательский университет)>> \\ (МГТУ им. Н.Э. Баумана)}
+			\end{center}
+		\end{minipage}
+		
+		\begin{center}
+			\fontsize{12pt}{0.1\baselineskip}\selectfont
+			\noindent\makebox[\linewidth]{\rule{\textwidth}{4pt}} \makebox[\linewidth]{\rule{\textwidth}{1pt}}
+		\end{center}
+		
+		\begin{flushleft}
+			\fontsize{12pt}{0.8\baselineskip}\selectfont 
+			
+			ФАКУЛЬТЕТ \uline{<<Информатика и системы управления>> \hfill}
+			
+			КАФЕДРА \uline{\mbox{\hspace{4mm}} <<Программное обеспечение ЭВМ и информационные технологии>> \hfill}
+		\end{flushleft}
+		
+		\vfill
+		
+		\begin{center}
+			\fontsize{20pt}{\baselineskip}\selectfont
+			
+			\textbf{РАСЧЕТНО-ПОЯСНИТЕЛЬНАЯ ЗАПИСКА}
+			
+			\textit{К КУРСОВОЙ РАБОТЕ}
+			
+			\textit{НА ТЕМУ:}
+		\end{center}
+		
+		\begin{center}
+			\fontsize{18pt}{0.6cm}\selectfont 
+			
+			<<Разработка загружаемого модуля ядра Linux для мониторинга использования оперативной памяти>>
+			
+		\end{center}
+		
+		\vfill
+		
+		\begin{table}[h!]
+			\fontsize{12pt}{0.7\baselineskip}\selectfont
+			
+			\begin{signstabular}[0.55]{p{7.25cm} >{\centering\arraybackslash}p{4cm} >{\centering\arraybackslash}p{4cm}}
+				Студент \uline{~~ИУ7-76Б~~} & \uline{\mbox{\hspace*{4cm}}} & \uline{\hfill А. А. Петрова \hfill} \\
+				\scriptsize \hspace*{2cm}(Группа)	& \scriptsize (Подпись, дата) & \scriptsize (И.О. Фамилия)
+			\end{signstabular}
+			
+			\vspace{\baselineskip}
+			
+			\begin{signstabular}[0.55]{p{7.25cm} >{\centering\arraybackslash}p{4cm} >{\centering\arraybackslash}p{4cm}}
+				Руководитель & \uline{\mbox{\hspace*{4cm}}} & \uline{\hfill Н. Ю. Рязанова \hfill} \\
+				& \scriptsize (Подпись, дата) & \scriptsize (И.О. Фамилия)
+			\end{signstabular}
+		\end{table}
+		
+		\vfill
+		
+		\begin{center}
+			\normalsize \textit{2023 г.}
+		\end{center}
+	\end{titlepage}
+
+\pagenumbering{gobble}
+%\include{tex/tz.tex}
+\normalsize
+\pagenumbering{arabic}
+\setcounter{page}{2}
+
+%\include{tex/abstract}
+
+\renewcommand{\contentsname}{\normalsize\bfseries\centering СОДЕРЖАНИЕ}
+\tableofcontents
+\clearpage
+
+
+\include{tex/intro}
+\include{tex/analysis}
+\include{tex/design}
+\include{tex/impl}
+\include{tex/research}
+\include{tex/conclusion}
+
+% говно литература для тест ВКР
+\include{tex/bibliography}
+
+% норм по феншую
+%\bibliographystyle{utf8gost705u}
+%\renewcommand{\refname}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}
+%\bibliography{bibliography}
+
+\include{tex/appendix}
+
+\end{document}
