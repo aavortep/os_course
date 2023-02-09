@@ -1,1 +1,1 @@
-# os_course
+# Course project on operating systems
