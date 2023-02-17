@@ -2,24 +2,33 @@
 \contentsline {section}{Введение}{4}{table.caption.1}%
 \contentsline {section}{\numberline {1}Аналитическая часть}{5}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Постановка задачи}{5}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Основные понятия}{5}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Анализ методов решения}{6}{subsection.1.3}%
-\contentsline {subsubsection}{\numberline {1.3.1}Файл /proc/meminfo}{6}{subsubsection.1.3.1}%
-\contentsline {subsubsection}{\numberline {1.3.2}Структура struct sysinfo}{6}{subsubsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.4}Загружаемые модули ядра}{7}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Пространство ядра и пространство пользователя}{8}{subsection.1.5}%
-\contentsline {subsection}{\numberline {1.6}Виртуальная файловая система /proc}{9}{subsection.1.6}%
-\contentsline {section}{\numberline {2}Конструкторская часть}{12}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Архитектура приложения}{12}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Базовые структуры}{12}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Разработка алгоритма}{12}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Технологическая часть}{15}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Выбор языка программирования}{15}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Информация о памяти в системе}{15}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Детали реализации}{16}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Исследовательская часть}{20}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Результаты работы разработанного ПО}{20}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Анализ результатов}{22}{subsection.4.2}%
-\contentsline {section}{Заключение}{23}{subsection.4.2}%
-\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{24}{subsection.4.2}%
-\contentsline {section}{ПРИЛОЖЕНИЕ А}{26}{subsection.4.2}%
+\contentsline {subsection}{\numberline {1.2}Информация об оперативной памяти}{6}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Файл /proc/meminfo}{6}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Структура struct sysinfo}{6}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Сравнительный анализ методов}{7}{subsubsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.3}Перехват функций}{8}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Модификация таблицы системных вызовов}{8}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}kprobes}{8}{subsubsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.3}Kernel tracepoints}{9}{subsubsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {1.3.4}ftrace}{9}{subsubsection.1.3.4}%
+\contentsline {subsubsection}{\numberline {1.3.5}Сравнительный анализ методов}{10}{subsubsection.1.3.5}%
+\contentsline {section}{\numberline {2}Конструкторская часть}{11}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Структура ftrace\_ops и функция коллбека}{11}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Алгоритм перехвата системного вызова}{12}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Алгоритм подсчёта количества системных вызовов}{14}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Алгоритм получения информации об объеме памяти}{15}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Точки входа}{16}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Технологическая часть}{17}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Выбор языка программирования}{17}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Информация о памяти в системе}{17}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Поиск адреса перехватываемой функции}{18}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Инициализация ftrace}{20}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Функции обёртки}{21}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Получение информации о количестве системных вызовов}{22}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Детали реализации}{24}{subsection.3.7}%
+\contentsline {section}{\numberline {4}Исследовательская часть}{27}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Результаты работы разработанного ПО}{27}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Анализ результатов}{29}{subsection.4.2}%
+\contentsline {section}{Заключение}{30}{subsection.4.2}%
+\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{31}{subsection.4.2}%
+\contentsline {section}{ПРИЛОЖЕНИЕ А}{33}{subsection.4.2}%

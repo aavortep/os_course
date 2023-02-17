@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.12) (format=lualatex 2022.9.9)  10 FEB 2023 01:58
+This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.12) (format=lualatex 2022.9.9)  17 FEB 2023 12:50
  system commands enabled.
 **rpz.tex
 (./rpz.tex
@@ -1363,11 +1363,8 @@ runsystem(del rpz.aex)...executed
 LaTeX Warning: Unused global option(s):
     [ut8x].
 
-(./rpz.aux (./tex/intro.aux) (./tex/analysis.aux) (./tex/design.aux
-
-LaTeX Warning: Label `lst:procops' multiply defined.
-
-) (./tex/impl.aux) (./tex/research.aux) (./tex/conclusion.aux)
+(./rpz.aux (./tex/intro.aux) (./tex/analysis.aux) (./tex/design.aux)
+(./tex/impl.aux) (./tex/research.aux) (./tex/conclusion.aux)
 (./tex/bibliography.aux) (./tex/appendix.aux))
 \openout1 = rpz.aux
 
@@ -1564,7 +1561,7 @@ enefit from \pgfplotsset{compat=1.18} (current compat level: 1.9).
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 145.
-<inc/bmstu.png, id=99, 168.63pt x 198.7425pt>
+<inc/bmstu.png, id=135, 168.63pt x 198.7425pt>
 File: inc/bmstu.png Graphic file (type png)
 <use inc/bmstu.png>
 Package luatex.def Info: inc/bmstu.png  used on input line 148.
@@ -1589,104 +1586,208 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {C:/Users/nuraa/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<C:/Users/nuraa
 /AppData/Local/Programs/MiKTeX/tex/latex/bmstu-iu8/inc/bmstu.png>]
-(./rpz.toc)
+(./rpz.toc [2])
 \tf@toc=\write8
 
 \openout8 = rpz.toc
- [2] [3]
+ [3]
 \openout2 = tex/intro.aux
- (./tex/intro.tex
-Overfull \hbox (3.36078pt too wide) in paragraph at lines 7--8
-[]\TU/TimesNewRoman(0)/m/n/14.4 Цель дан-ной ра-бо-ты – ре-
-а-ли-зо-вать за-гру-жа-е-мый мо-дуль яд-ра Linux, 
-предо-
- []
-
-) [4
+ (./tex/intro.tex) [4
 
 
 ]
 \openout2 = tex/analysis.aux
- (./tex/analysis.tex [5
+ (./tex/analysis.tex
+Overfull \hbox (2.04472pt too wide) in paragraph at lines 7--8
+[]\TU/TimesNewRoman(0)/m/n/14.4 Для вы-пол-не-ния по-став-
+лен-ной за-да-чи необ-хо-ди-мо вы-пол-нить сл
+е-ду-ю-щее: 
+ []
+
+
+Overfull \hbox (7.16937pt too wide) in paragraph at lines 21--22
+[]\TU/TimesNewRoman(0)/m/n/14.4 ко-ли-че-ство сво-бод-ной, 
+до-ступ-ной и за-ня-той опе-ра-тив-ной па-мя-
+ти каж-
+ []
+
+[5
 
 
 
 ]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 63.
+nput line 66.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 63--63
+Overfull \hbox (6.0pt too wide) in paragraph at lines 66--66
 [][][][][][][]  
  []
 
 [6]
-Overfull \hbox (11.06348pt too wide) in paragraph at lines 86--87
-[]\TU/TimesNewRoman(0)/m/n/14.4 Од-ной из осо-бен-но-стей 
-яд-ра Linux яв-ля-ет-ся спо-соб-ность рас-ши-ре-
-ния функ-
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[]|\TU/TimesNewRoman(0)/b/n/14.4 Объ-ем
  []
 
-[7] [8]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 110--110
-[][][][][][][]  
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+\TU/TimesNewRoman(0)/b/n/14.4 до-ступ-ной
  []
 
-[9]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 141--141
-[][][][][][][]  
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[]|\TU/TimesNewRoman(0)/b/n/14.4 Объ-ем
  []
 
-[10]) [11]
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+\TU/TimesNewRoman(0)/b/n/14.4 за-ня-той
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+[]|\TU/TimesNewRoman(0)/b/n/14.4 От-сут-ствие
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+\TU/TimesNewRoman(0)/b/n/14.4 необ-хо-ди-мо-сти
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7]
+Overfull \hbox (9.52832pt too wide) in paragraph at lines 115--116
+[]\TU/TimesNewRoman(0)/m/n/14.4 Все об-ра-бот-чи-ки си-сте
+м-ных вы-зо-вов рас-по-ло-же-ны в таб-ли-це sys_ca
+ll_table.
+ []
+
+[8] [9]
+Underfull \hbox (badness 7362) in paragraph at lines 175--175
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Дин. за-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Пе-ре-хват
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
+\TU/TimesNewRoman(0)/m/n/14.4 лю-бых
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Лю-бая
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
+\TU/TimesNewRoman(0)/m/n/14.4 кон-фи-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
+\TU/TimesNewRoman(0)/m/n/14.4 гу-ра-ция
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Про-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+\TU/TimesNewRoman(0)/m/n/14.4 сто-та
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+\TU/TimesNewRoman(0)/m/n/14.4 ре-а-ли-за-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Мо-ди-фи-ка-ция
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
+\TU/TimesNewRoman(0)/m/n/14.4 таб-ли-цы си-стем-
+ []
+
+) [10]
 \openout2 = tex/design.aux
  (./tex/design.tex
-Overfull \hbox (6.0pt too wide) in paragraph at lines 11--11
+Overfull \hbox (6.0pt too wide) in paragraph at lines 7--7
 [][][][][][][]  
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 19--19
-[][][][][][][]  
+Overfull \hbox (1.13821pt too wide) in paragraph at lines 42--43
+\TU/TimesNewRoman(0)/m/n/14.4 FTRACE_OPS_FL_SAVE_REGS_IF_SUPPORTED, то эт
+о бу-дет ука-зы-вать
  []
 
-<jpg/01_A-0.png, id=290, 801.99625pt x 531.9875pt>
-File: jpg/01_A-0.png Graphic file (type png)
-<use jpg/01_A-0.png>
-Package luatex.def Info: jpg/01_A-0.png  used on input line 35.
-(luatex.def)             Requested size: 441.09929pt x 292.59402pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<jpg/02_A0.png, id=291, 801.99625pt x 531.9875pt>
-File: jpg/02_A0.png Graphic file (type png)
-<use jpg/02_A0.png>
-Package luatex.def Info: jpg/02_A0.png  used on input line 44.
-(luatex.def)             Requested size: 441.09929pt x 292.59402pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[12
+[11
 
 
 
 ]
-
-LaTeX Warning: Text page 13 contains only floats.
-
-[13<./jpg/01_A-0.png><./jpg/02_A0.png>]
-Overfull \hbox (0.80779pt too wide) in paragraph at lines 55--56
-\TU/TimesNewRoman(0)/m/n/14.4 зо-вые струк-ту-ры, необ-хо-
-ди-мые для раз-ра-бот-ки, а так-же бы-ли при-в
-е-де-ны IDEF0-
+<jpg/ftrace_algo.jpg, id=323, 757.83125pt x 663.47874pt>
+File: jpg/ftrace_algo.jpg Graphic file (type jpg)
+<use jpg/ftrace_algo.jpg>
+Package luatex.def Info: jpg/ftrace_algo.jpg  used on input line 51.
+(luatex.def)             Requested size: 454.70226pt x 398.0903pt.
+ [12<./jpg/ftrace_algo.jpg>] [13]
+Overfull \hbox (2.93715pt too wide) in paragraph at lines 76--77
+[]\TU/TimesNewRoman(0)/m/n/14.4 Управ-ле-ние по-лу-ча-ет к
+олл-бек. Как и при пер-вом вы-зо-ве sys_clone(), уп
+рав-
  []
 
-) [14]
+
+Overfull \hbox (19.97495pt too wide) in paragraph at lines 82--83
+[]\TU/TimesNewRoman(0)/m/n/14.4 Управ-ле-ние пе-ре-да-ёт-с
+я яд-ру. Функ-ция hook_sys_clone() за-вер-ша-ет-ся и 
+управ-
+ []
+
+
+Overfull \hbox (5.01236pt too wide) in paragraph at lines 84--85
+\TU/TimesNewRoman(0)/m/n/14.4 струк-цию IRET, уста-нав-ли-в
+ая ре-ги-стры для но-во-го поль-зо-ва-тель-ск
+о-го про-
+ []
+
+<jpg/syscalls_count.jpg, id=343, 181.67876pt x 492.84125pt>
+File: jpg/syscalls_count.jpg Graphic file (type jpg)
+<use jpg/syscalls_count.jpg>
+Package luatex.def Info: jpg/syscalls_count.jpg  used on input line 93.
+(luatex.def)             Requested size: 109.00809pt x 295.70702pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14]
+<jpg/kthread.png, id=356, 278.03876pt x 614.295pt>
+File: jpg/kthread.png Graphic file (type png)
+<use jpg/kthread.png>
+Package luatex.def Info: jpg/kthread.png  used on input line 113.
+(luatex.def)             Requested size: 139.01903pt x 307.14674pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15<./jpg/syscalls_count.jpg>]) [16<./jpg/kthread.png>]
 \openout2 = tex/impl.aux
  (./tex/impl.tex
 Overfull \hbox (6.0pt too wide) in paragraph at lines 14--14
 [][][][][][][]  
  []
 
-[15
+[17
 
 
 
@@ -1695,40 +1796,77 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 48--48
 [][][][][][][]  
  []
 
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 66--66
+[18]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 72--72
 [][][][][][][]  
  []
 
-[16]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 95--95
+[19]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 113--113
 [][][][][][][]  
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 103--103
+Overfull \hbox (6.0pt too wide) in paragraph at lines 147--147
 [][][][][][][]  
  []
 
-[17]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 127--127
+[20]
+Overfull \hbox (35.33653pt too wide) in paragraph at lines 176--177
+[]\TU/TimesNewRoman(0)/m/n/14.4 В ли-стин-ге []8[] пред-став-
+ле-на ре-а-ли-за-ция функ-ции обёрт-ки на при-
+ме-ре sys_clone(). 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 178--178
 [][][][][][][]  
  []
 
-) [18] [19]
+[21]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 194--194
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 218--218
+[][][][][][][]  
+ []
+
+[22] [23]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 267--267
+[][][][][][][]  
+ []
+
+[24]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 303--303
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 311--311
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 339--339
+[][][][][][][]  
+ []
+
+[25]) [26]
 \openout2 = tex/research.aux
  (./tex/research.tex
-<jpg/1.png, id=475, 1238.6275pt x 473.77pt>
-File: jpg/1.png Graphic file (type png)
-<use jpg/1.png>
-Package luatex.def Info: jpg/1.png  used on input line 9.
-(luatex.def)             Requested size: 470.68335pt x 180.03447pt.
-<jpg/2.png, id=476, 793.96625pt x 573.14125pt>
+<jpg/2.png, id=731, 793.96625pt x 573.14125pt>
 File: jpg/2.png Graphic file (type png)
 <use jpg/2.png>
-Package luatex.def Info: jpg/2.png  used on input line 18.
+Package luatex.def Info: jpg/2.png  used on input line 9.
 (luatex.def)             Requested size: 317.58087pt x 229.25243pt.
-<jpg/3.png, id=477, 942.52126pt x 434.62375pt>
+<jpg/cat_syscalls.png, id=732, 819.06pt x 447.6725pt>
+File: jpg/cat_syscalls.png Graphic file (type png)
+<use jpg/cat_syscalls.png>
+Package luatex.def Info: jpg/cat_syscalls.png  used on input line 18.
+(luatex.def)             Requested size: 327.6182pt x 179.06583pt.
+<jpg/3.png, id=733, 942.52126pt x 434.62375pt>
 File: jpg/3.png Graphic file (type png)
 <use jpg/3.png>
 Package luatex.def Info: jpg/3.png  used on input line 27.
@@ -1737,12 +1875,12 @@ Package luatex.def Info: jpg/3.png  used on input line 27.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[20
+[27
 
 
 
-<./jpg/1.png><./jpg/2.png>]
-<jpg/memory_usage.png, id=489, 925.056pt x 450.2421pt>
+<./jpg/2.png><./jpg/cat_syscalls.png>]
+<jpg/memory_usage.png, id=745, 925.056pt x 450.2421pt>
 File: jpg/memory_usage.png Graphic file (type png)
 <use jpg/memory_usage.png>
 Package luatex.def Info: jpg/memory_usage.png  used on input line 38.
@@ -1752,9 +1890,9 @@ Overfull \hbox (25.08551pt too wide) in paragraph at lines 38--39
  [] 
  []
 
-[21<./jpg/3.png><./jpg/memory_usage.png>]) [22]
+[28<./jpg/3.png><./jpg/memory_usage.png>]) [29]
 \openout2 = tex/conclusion.aux
- (./tex/conclusion.tex) [23
+ (./tex/conclusion.tex) [30
 
 
 
@@ -1762,102 +1900,103 @@ Overfull \hbox (25.08551pt too wide) in paragraph at lines 38--39
 \openout2 = tex/bibliography.aux
 
 (./tex/bibliography.tex
-Underfull \hbox (badness 3364) in paragraph at lines 20--21
+Underfull \hbox (badness 3364) in paragraph at lines 17--18
 []\TU/TimesNewRoman(0)/m/n/14.4 The /proc/meminfo File in Linux [Элек-тр
 он-ный ре-сурс]. -- Ре-жим до-
  []
 
 
-Underfull \hbox (badness 4353) in paragraph at lines 24--25
-[]\TU/TimesNewRoman(0)/m/n/14.4 include/uapi/linux/sysinfo.h - Linux source code
- (v6.1.10) [Элек-трон-ный
- []
-
-
-Underfull \hbox (badness 1292) in paragraph at lines 28--29
+Underfull \hbox (badness 5133) in paragraph at lines 21--22
 \TU/TimesNewRoman(0)/m/n/14.4 -- Ре-жим до-сту-па: []$\TU/lmtt/m/n/
-14.4 https://elixir.bootlin.com/linux/latest/source/
+14.4 https://elixir.bootlin.com/linux/v5.15/source/
+ []
+
+[31
+
+
+
+]
+Underfull \hbox (badness 3679) in paragraph at lines 41--42
+[]\TU/TimesNewRoman(0)/m/n/14.4 Трас-си-ров-ка яд-ра с ftrace [
+Элек-трон-ный ре-сурс]. -- Ре-жим до-сту-па:
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 32--33
-\TU/TimesNewRoman(0)/m/n/14.4 -- Ре-жим до-сту-па: []$\TU/lmtt/m/n/
-14.4 https://elixir.bootlin.com/linux/latest/source/
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+[]$\TU/lmtt/m/n/14.4 https://www.kernel.org/doc/html/latest/trace/ftrace-[]uses.
+html$[]
  []
 
 
-Underfull \hbox (badness 2409) in paragraph at lines 36--37
+Underfull \hbox (badness 3989) in paragraph at lines 49--50
 []\TU/TimesNewRoman(0)/m/n/14.4 C99 standard note [Элек-трон-ный р
-е-сурс]. -- Ре-жим до-сту-па: []$\TU/lmtt/m/n/14.4 https://
+е-сурс]. -- Ре-жим до-сту-па: []$\TU/lmtt/m/n/14.4 https:
  []
 
-
-Underfull \hbox (badness 4713) in paragraph at lines 36--37
-\TU/lmtt/m/n/14.4 www.open-[]std.org/jtc1/sc22/wg14/www/docs/n1256.pdf$[] \TU/T
-imesNewRoman(0)/m/n/14.4 (да-та об-ра-ще-
- []
-
-[24
-
-
-
-]) [25]
+) [32]
 \openout2 = tex/appendix.aux
  (./tex/appendix.tex
 Overfull \hbox (6.0pt too wide) in paragraph at lines 3--3
 [][][][][][][]  
  []
 
-[26
+[33
 
 
 
-] [27] [28]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 159--159
+] [34] [35] [36] [37]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 214--214
 [][][][][][][]  
  []
 
-[29] [30]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 195--195
+[38] [39] [40] [41] [42]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 421--421
 [][][][][][][]  
  []
 
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 223--223
+[43]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 449--449
 [][][][][][][]  
  []
 
-[31]) [32] 
+[44]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 473--473
+[][][][][][][]  
+ []
+
+[45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 1069--1069
+[][][][][][][]  
+ []
+
+[60] [61]) [62] 
 AED: lastpage setting LastPage
 (./rpz.aux (./tex/intro.aux) (./tex/analysis.aux) (./tex/design.aux)
 (./tex/impl.aux) (./tex/research.aux) (./tex/conclusion.aux)
 (./tex/bibliography.aux) (./tex/appendix.aux))
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `rpz.out' has not changed.
-(rerunfilecheck)             Checksum: C0EFBECC0E0485014109C24F8CBC84D5;5467.
+(rerunfilecheck)             Checksum: A16B6B4AECD3BA1A8864E05C8C3F14DE;8113.
 )
 
 Here is how much of LuaTeX's memory you used:
- 47135 strings out of 477867
- 476961,1648299 words of node,token memory allocated
- 672 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 29 attribute, 62 glue_spec
-, 16 attribute_list, 5 write, 5 pdf_action nodes
-   avail lists: 1:2,2:5735,3:298,4:248,5:12680,6:93,7:14782,8:99,9:21344,10:42,1
-1:1010
- 65293 multiletter control sequences out of 65536+600000
+ 48534 strings out of 477867
+ 596195,1648299 words of node,token memory allocated
+ 660 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 27 attribute, 62 glue_spec
+, 15 attribute_list, 5 write, 4 pdf_action nodes
+   avail lists: 1:4,2:8028,3:313,4:230,5:18478,6:103,7:22399,8:106,9:30822,10:50
+,11:1145
+ 65620 multiletter control sequences out of 65536+600000
  79 fonts using 19986383 bytes
- 99i,12n,90p,1084b,834s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,12n,90p,811b,834s stack positions out of 5000i,500n,10000p,200000b,80000s
 <//?/c:/users/nuraa/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmon
 o12-regular.otf><//?/c:/users/nuraa/appdata/local/programs/miktex/fonts/opentype
 /public/lm/lmmono10-italic.otf><//?/c:/users/nuraa/appdata/local/programs/miktex
 /fonts/opentype/public/lm/lmmono10-regular.otf><C:/Windows/Fonts/timesi.ttf><C:/
 Windows/Fonts/times.ttf><C:/Windows/Fonts/timesbd.ttf>
-Output written on rpz.pdf (32 pages, 632815 bytes).
+Output written on rpz.pdf (62 pages, 895496 bytes).
 
-PDF statistics: 856 PDF objects out of 1000 (max. 8388607)
- 498 named destinations out of 1000 (max. 131072)
- 208 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 2122 PDF objects out of 2487 (max. 8388607)
+ 1564 named destinations out of 1728 (max. 131072)
+ 280 words of extra memory for PDF output out of 10000 (max. 100000000)
 

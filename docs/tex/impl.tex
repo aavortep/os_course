@@ -59,9 +59,210 @@
 	return 0;
 \end{lstlisting}
 
+\subsection{Поиск адреса перехватываемой функции}
+
+Для корректной работы ftrace необходимо найти и сохранить адрес функции, которую будет перехватывать разрабатываемый модуль ядра. 
+
+В старых версиях ядра (в версии ядра 5.7.0 данная функция перестала быть экспортируемой \cite{kallsyms-removed}) найти адрес функции можно было с помощью функции kallsyms\_lookup\_name() -- списка всех символов в ядре, в том числе не экспортируемых для модулей. Так как модуль ядра разрабатывался на системе с версией ядра 5.15.0, воспользоваться данным способом было нельзя. Поэтому использовался интерфейс kprobes.
+
+Из-за того, что данный способ имеет больше накладных расходов, чем поиск с помощью kallsyms\_lookup\_name() (требуется регистрация и удаление kprobes в системе), для версий ядра ниже 5.7.0 поиск адреса производится с помощью kallsyms\_lookup\_name(). 
+
+Реализация функции lookup\_name(), возвращающей адрес перехватываемой функции по её названию, представлена в листинге \ref{lst:lookup_name}.
+
+\begin{lstlisting}[label=lst:lookup_name, caption=Реализация функции lookup\_name()]
+	#if LINUX_VERSION_CODE >= KERNEL_VERSION(5,7,0)
+	static unsigned long lookup_name(const char *name)
+	{
+		struct kprobe kp = {
+			.symbol_name = name
+		};
+		unsigned long retval;
+		
+		ENTER_LOG();
+		
+		if (register_kprobe(&kp) < 0) {
+			EXIT_LOG();
+			return 0;
+		}
+		
+		retval = (unsigned long) kp.addr;
+		unregister_kprobe(&kp);
+		
+		EXIT_LOG();
+		
+		return retval;
+	}
+	#else
+	static unsigned long lookup_name(const char *name)
+	{
+		unsigned long retval;
+		
+		ENTER_LOG();
+		retval = kallsyms_lookup_name(name);
+		EXIT_LOG();
+		
+		return retval;
+	}
+	#endif
+\end{lstlisting}
+
+\subsection{Инициализация ftrace}
+
+В листинге \ref{lst:install_hook} представлена реализация функции, которая инициализирует структуру ftrace\_ops.
+
+\begin{lstlisting}[label=lst:install_hook, caption=Реализация функции install\_hook()]
+	static int install_hook(struct ftrace_hook *hook) {
+		int rc;
+		
+		ENTER_LOG();
+		
+		if ((rc = resolve_hook_address(hook))) {
+			EXIT_LOG();
+			return rc;
+		}
+		
+		hook->ops.func = ftrace_thunk; 
+		hook->ops.flags = FTRACE_OPS_FL_SAVE_REGS
+		| FTRACE_OPS_FL_RECURSION
+		| FTRACE_OPS_FL_IPMODIFY;
+		
+		if ((rc = ftrace_set_filter_ip(&hook->ops, hook->address, 0, 0))) {
+			pr_debug("ftrace_set_filter_ip() failed: %d\n", rc);
+			return rc;
+		}
+		
+		if ((rc = register_ftrace_function(&hook->ops))) {
+			pr_debug("register_ftrace_function() failed: %d\n", rc);
+			ftrace_set_filter_ip(&hook->ops, hook->address, 1, 0);
+		}
+		
+		EXIT_LOG();
+		
+		return rc;
+	}
+\end{lstlisting}
+
+В листинге \ref{lst:remove_hook} представлена реализация отключения перехвата функции.
+
+\begin{lstlisting}[label=lst:remove_hook, caption=Реализация функции remove\_hook()]
+	static void remove_hook(struct ftrace_hook *hook) {
+		int rc;
+		
+		ENTER_LOG();
+		
+		if (hook->address == 0x00) {
+			EXIT_LOG();
+			return;
+		}
+		
+		if ((rc = unregister_ftrace_function(&hook->ops))) {
+			pr_debug("unregister_ftrace_function() failed: %d\n", rc);
+		}
+		
+		if ((rc = ftrace_set_filter_ip(&hook->ops, hook->address, 1, 0))) {
+			pr_debug("ftrace_set_filter_ip() failed: %d\n", rc);
+		}
+		
+		hook->address = 0x00;
+		
+		EXIT_LOG();
+	}
+\end{lstlisting}
+
+\subsection{Функции обёртки}
+
+При объявлении функций обёрток, которые будут запущены вместо перехватываемой функции, необходимо в точности соблюдать сигнатуру. Оригинальные описания функций были взяты из исходных кодов ядра Linux. 
+
+В листинге \ref{lst:sys_execve} представлена реализация функции обёртки на примере sys\_clone().
+
+\begin{lstlisting}[label=lst:sys_execve, caption=Реализация функции обёртки]
+	static asmlinkage long (*real_sys_clone)(unsigned long clone_flags,
+	unsigned long newsp, int __user *parent_tidptr,
+	int __user *child_tidptr, unsigned long tls);
+	
+	static asmlinkage long hook_sys_clone(unsigned long clone_flags,
+	unsigned long newsp, int __user *parent_tidptr,
+	int __user *child_tidptr, unsigned long tls)
+	{
+		update_syscall_array(SYS_CLONE_NUM);
+		return real_sys_clone(clone_flags, newsp, parent_tidptr, child_tidptr, tls);
+	}
+\end{lstlisting}
+
+В листинге \ref{lst:update_syscall_array} представлена реализация функции которая обновляет массив, хранящий количество системных вызовов за последние 24 часа.
+
+\begin{lstlisting}[label=lst:update_syscall_array, caption=Реализация функции update\_syscall\_array()]
+	static DEFINE_SPINLOCK(my_lock);
+	
+	static void inline update_syscall_array(int syscall_num) {
+		ktime_t time;
+		
+		time = ktime_get_boottime_seconds() - start_time;
+		
+		spin_lock(&my_lock);
+		
+		if (syscall_num < 64) {
+			syscalls_time_array[time % TIME_ARRAY_SIZE].p1 |= 1UL << syscall_num;
+		} else {
+			syscalls_time_array[time % TIME_ARRAY_SIZE].p2 |= 1UL << (syscall_num % 64);
+		}
+		
+		spin_unlock(&my_lock);
+	}
+\end{lstlisting}
+
+\subsection{Получение информации о количестве системных вызовов}
+
+В листинге \ref{lst:syscall_proc} представлена реализация функций, которые агрегируют информацию о системных вызовах (данные массива update\_syscall\_array) и предоставляют ее в читаемом для пользователя виде.
+
+\begin{lstlisting}[label=lst:syscall_proc, caption=Реализация функций агрегации данных о системных вызовах, language=c]
+	static inline void walk_bits_and_find_syscalls(struct seq_file *m, uint64_t num, int syscalls_arr_cnt[]) {
+		int i;
+		
+		for (i = 0; i < 64; i++) {
+			if (num & (1UL << i)) {
+				syscalls_arr_cnt[i]++;
+			}
+		}
+	}
+	
+	void print_syscall_statistics(struct seq_file *m, const ktime_t mstart, ktime_t range) {
+		int syscalls_arr_cnt[128];
+		uint64_t tmp;
+		size_t i;
+		ktime_t uptime;
+		
+		memset((void*)syscalls_arr_cnt, 0, 128 * sizeof(int));
+		uptime = ktime_get_boottime_seconds() - mstart;
+		
+		if (uptime < range) {
+			range = uptime;
+		}
+		
+		for (i = 0; i < range; i++) {
+			if ((tmp = syscalls_time_array[uptime - i].p1) != 0) {
+				walk_bits_and_find_syscalls(m, tmp, syscalls_arr_cnt);
+			}
+			
+			if ((tmp = syscalls_time_array[uptime - i].p2) != 0) {
+				walk_bits_and_find_syscalls(m, tmp, syscalls_arr_cnt + 64);
+			}
+		}
+		
+		show_int_message(m, "Syscall statistics for the last %d seconds.\n\n", range);
+		
+		for (i = 0; i < 128; i++) {
+			if (syscalls_arr_cnt[i] != 0) {
+				show_str_message(m, "%s called ", syscalls_names[i]);
+				show_int_message(m, "%d times.\n", syscalls_arr_cnt[i]);
+			}
+		}
+	}
+\end{lstlisting}
+
 \subsection{Детали реализации}
 
-В листингах \ref{lst:mdinit}-\ref{lst:procinit} представлена реализация точек входа в загружаемый модуль.
+В листингах \ref{lst:mdinit}-\ref{lst:cleanup} представлена реализация точек входа в загружаемый модуль.
 
 \begin{lstlisting}[label={lst:mdinit}, caption={функция инициализации модуля}]
 	static int __init md_init(void) {
@@ -73,6 +274,13 @@
 		if ((rc = proc_init())) {
 			return rc;
 		}
+		
+		if ((rc = install_hooks())) {
+			cleanup();
+			return rc;
+		}
+		
+		start_time = ktime_get_boottime_seconds();
 		
 		cpu = get_cpu();
 		worker_task = kthread_create(memory_cnt_task_handler_fn, NULL, "memory counter thread");
@@ -100,25 +308,29 @@
 	}
 \end{lstlisting}
 
-\begin{lstlisting}[label={lst:procinit}, caption={создание директории и файла в /proc}]
-	static int proc_init(void) {
+\begin{lstlisting}[label={lst:cleanup}, caption={функция cleanup()}]
+	static void cleanup(void) {
 		ENTER_LOG();
 		
-		if ((proc_root = proc_mkdir(MODULE_NAME, NULL)) == NULL) {
-			goto err;
+		if (worker_task) {
+			kthread_stop(worker_task);
 		}
 		
-		if ((proc_mem_file = proc_create("memory", 066, proc_root, &mem_ops)) == NULL) {
-			goto err;
+		if (proc_mem_file != NULL) {
+			remove_proc_entry("memory", proc_root);
 		}
 		
-		EXIT_LOG();
-		return 0;
+		if (proc_syscall_file != NULL) {
+			remove_proc_entry("syscalls", proc_root);
+		}
 		
-	err:
-		cleanup();
+		if (proc_root != NULL) {
+			remove_proc_entry(MODULE_NAME, NULL);
+		}
+		
+		remove_hooks();
+		
 		EXIT_LOG();
-		return -ENOMEM;
 	}
 \end{lstlisting}
 
@@ -129,28 +341,24 @@ Make файл для компиляции и сборки разработанн
 	MDIR := $(shell pwd)
 	
 	obj-m += monitor.o
-	monitor-y := monitor_main.o stat.o log.o
+	monitor-y := monitor_main.o stat.o hooks.o log.o
 	EXTRA_CFLAGS=-I$(PWD)/inc
 	
 	all:
-		make -C $(KPATH) M=$(MDIR) modules
+	make -C $(KPATH) M=$(MDIR) modules
 	
 	clean:
-		make -C $(KPATH) M=$(MDIR) clean
+	make -C $(KPATH) M=$(MDIR) clean
 	
 	load:
-		sudo insmod monitor.ko
+	sudo insmod monitor.ko
 	
 	unload:
-		sudo rmmod monitor.ko
+	sudo rmmod monitor.ko
 	
 	info:
-		modinfo monitor.ko
+	modinfo monitor.ko
 	
 	logs:
-		sudo dmesg | tail -n60 | grep monitor:
+	sudo dmesg | tail -n60 | grep monitor:
 \end{lstlisting}
-
-\subsection*{Выводы}
-
-В данном разделе был выбран язык программирования, разработан и протестирован исходный код программы, а также рассмотрены листинги реализованного программного обеспечения.
