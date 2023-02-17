@@ -1,0 +1,1863 @@
+This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.12) (format=lualatex 2022.9.9)  10 FEB 2023 01:58
+ system commands enabled.
+**rpz.tex
+(./rpz.tex
+LaTeX2e <2021-11-15> patch level 1
+Lua module: luaotfload 2021-05-21 3.18 Lua based OpenType font support
+Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "C:/Users/nuraa/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2021-05-20.lua" from kpse-res
+olved path "C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/f
+ontloader-2021-05-20.lua".
+Lua-only attribute luaotfload@noligature = 1
+Lua-only attribute luaotfload@syllabe = 2
+luaotfload | init : Context OpenType loader version 3.116
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 3
+luaotfload | conf : Root cache directory is "C:/Users/nuraa/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
+er'.
+Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 4
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2021-11-22>
+Inserting `tracingstacklevels' at position 1 in `input_level_string'.
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/extsizes/size14.clo
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/nuraa/AppData/Local/M
+iKTeX/luatex-cache/generic/names/luaotfload-names.luc)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/base/exscale.sty
+Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen137
+)
+\c@part=\count181
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@subparagraph=\count186
+\c@figure=\count187
+\c@table=\count188
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/extsizes/extsizes.sty
+Package: extsizes 1996/10/08 v1.0 Non Standard LaTeX Package
+
+
+Package ExtSizes Warning: It is better to use one of the extsizes classes,
+ if you can.
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/extsizes/size14.clo
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/babel/babel.sty
+Package: babel 2021/11/29 3.67 The Babel package
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/babel/luababel.def
+\bbl@readstream=\read2
+\l@afrikaans=\language2
+Package babel Info: Non-standard hyphenation setup on input line 118.
+\l@ancientgreek=\language3
+\l@armenian=\language4
+\l@assamese=\language5
+\l@basque=\language6
+\l@belarusian=\language7
+\l@bengali=\language8
+\l@bokmal=\language9
+\l@bulgarian=\language10
+\l@catalan=\language11
+\l@churchslavonic=\language12
+\l@classiclatin=\language13
+\l@coptic=\language14
+\l@croatian=\language15
+\l@czech=\language16
+\l@danish=\language17
+\l@dutch=\language18
+\l@esperanto=\language19
+\l@estonian=\language20
+\l@ethiopic=\language21
+\l@finnish=\language22
+\l@french=\language23
+\l@friulan=\language24
+\l@galician=\language25
+\l@georgian=\language26
+\l@german=\language27
+\l@greek=\language28
+\l@gujarati=\language29
+\l@hindi=\language30
+\l@hungarian=\language31
+\l@icelandic=\language32
+\l@indonesian=\language33
+\l@interlingua=\language34
+\l@irish=\language35
+\l@italian=\language36
+\l@kannada=\language37
+\l@kurmanji=\language38
+\l@latin=\language39
+\l@latvian=\language40
+\l@lithuanian=\language41
+\l@liturgicallatin=\language42
+\l@macedonian=\language43
+\l@malayalam=\language44
+\l@marathi=\language45
+\l@mongolian=\language46
+\l@mongolianlmc=\language47
+\l@monogreek=\language48
+\l@ngerman=\language49
+\l@nynorsk=\language50
+\l@occitan=\language51
+\l@oriya=\language52
+\l@pali=\language53
+\l@panjabi=\language54
+\l@piedmontese=\language55
+\l@polish=\language56
+\l@portuguese=\language57
+\l@romanian=\language58
+\l@romansh=\language59
+\l@russian=\language60
+\l@sanskrit=\language61
+\l@serbian=\language62
+\l@serbianc=\language63
+\l@slovak=\language64
+\l@slovenian=\language65
+\l@spanish=\language66
+\l@swedish=\language67
+\l@swissgerman=\language68
+\l@tamil=\language69
+\l@telugu=\language70
+\l@thai=\language71
+\l@turkish=\language72
+\l@turkmen=\language73
+\l@ukenglish=\language74
+\l@ukrainian=\language75
+\l@uppersorbian=\language76
+\l@usenglishmax=\language77
+\l@welsh=\language78
+\babelcatcodetablenum=\catcodetable12
+\bbl@pattcodes=\catcodetable13
+)
+\babel@savecnt=\count189
+\U@D=\dimen139
+\l@unhyphenated=\language79
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/babel/luababel.def
+\bbl@attr@locale=\attribute5
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/arabi/bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/babel-english/english.l
+df
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language74). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language74). Reported on input line 108.
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/babel-russian/russianb.
+ldf
+File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
+Language: russian 2020/09/09 1.3k Russian support for the Babel system
+Package babel Info: Making " an active character on input line 124.
+Package babel Info: Default for \cyrdash is provided on input line 163.
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/hyph-utf8/loadhyph/lo
+adhyph-ru.tex UTF-8 Russian hyphenation patterns
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/hyph-utf8/patterns/te
+x/hyph-ru.tex))))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.sty
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xpars
+e.sty
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-11-22 L3 programming layer (loader) 
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-lua
+tex.def
+File: l3backend-luatex.def 2021-10-18 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count190
+\l__pdf_internal_box=\box50
+))
+Package: xparse 2021-11-12 L3 Experimental document command parser
+)
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2020/02/21 2.7i Font selection for XeLaTeX and LuaLaTeX
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec-luate
+x.sty
+Package: fontspec-luatex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count191
+\l__fontspec_language_int=\count192
+\l__fontspec_strnum_int=\count193
+\l__fontspec_tmp_int=\count194
+\l__fontspec_tmpa_int=\count195
+\l__fontspec_tmpb_int=\count196
+\l__fontspec_tmpc_int=\count197
+\l__fontspec_em_int=\count198
+\l__fontspec_emdef_int=\count199
+\l__fontspec_strong_int=\count266
+\l__fontspec_strongdef_int=\count267
+\l__fontspec_tmpa_dim=\dimen140
+\l__fontspec_tmpb_dim=\dimen141
+\l__fontspec_tmpc_dim=\dimen142
+ (C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.cfg
+)))
+luaotfload | cache : Lookup cache loaded from C:/Users/nuraa/AppData/Local/MiKTe
+X/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+
+Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman:mode=node;script=latn;language=dflt;+t
+lig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman:mode=node;script=latn;language=dflt;+t
+lig;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/B:mode=node;script=latn;language=dflt;
++tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/B:mode=node;script=latn;language=dflt;
++tlig;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/I:mode=node;script=latn;language=dflt;
++tlig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/I:mode=node;script=latn;language=dflt;
++tlig;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/BI:mode=node;script=latn;language=dflt
+;+tlig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/BI:mode=node;script=latn;language=dflt
+;+tlig;+smcp;"
+
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count268
+\Gm@cntv=\count269
+\c@Gm@tempcnt=\count270
+\Gm@bindingoffset=\dimen143
+\Gm@wd@mp=\dimen144
+\Gm@odd@mp=\dimen145
+\Gm@even@mp=\dimen146
+\Gm@layoutwidth=\dimen147
+\Gm@layoutheight=\dimen148
+\Gm@layouthoffset=\dimen149
+\Gm@layoutvoffset=\dimen150
+\Gm@dimlist=\toks17
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg)) (C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/t2/misccorr.sty
+Package: misccorr 1999/09/23 v0.1 misc corrections for russian typesetting
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks18
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks19
+)
+\c@rlistctr=\count271
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip49
+\enit@outerparindent=\dimen151
+\enit@toks=\toks20
+\enit@inbox=\box51
+\enit@count@id=\count272
+\enitdp@description=\count273
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2022/05/22 v0.5v Insert pages of external PDF documents (AM)
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count274
+\calc@Bcount=\count275
+\calc@Adimen=\dimen152
+\calc@Bdimen=\dimen153
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count276
+\calc@Cskip=\skip52
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen154
+\ESO@tempdimb=\dimen155
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 227.
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/luatex.def
+File: luatex.def 2021/06/01 v1.2c Graphics/color driver for luatex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 107.
+)
+\Gin@req@height=\dimen156
+\Gin@req@width=\dimen157
+)
+\AM@pagewidth=\dimen158
+\AM@pageheight=\dimen159
+\AM@fboxrule=\dimen160
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/pdfpages/ppluatex.def
+File: ppluatex.def 2022/05/22 v0.5v Pdfpages driver for LuaTeX (AM)
+)
+\pdfpages@includegraphics@status=\count277
+\AM@pagebox=\box52
+\AM@global@opts=\toks21
+\AM@pagecnt=\count278
+\AM@toc@title=\toks22
+\c@AM@survey=\count279
+\AM@templatesizebox=\box53
+) (C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+) (C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen161
+\ar@mcellbox=\box54
+\extrarowheight=\dimen162
+\NC@list=\toks23
+\extratabsurround=\skip53
+\backup@length=\skip54
+\ar@cellbox=\box55
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box56
+\beforetitleunit=\skip55
+\aftertitleunit=\skip56
+\ttl@plus=\dimen163
+\ttl@minus=\dimen164
+\ttl@toksa=\toks24
+\titlewidth=\dimen165
+\titlewidthlast=\dimen166
+\titlewidthfirst=\dimen167
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen168
+\captionmargin@=\dimen169
+\captionwidth=\dimen170
+\caption@tempdima=\dimen171
+\caption@indent=\dimen172
+\caption@parindent=\dimen173
+\caption@hangindent=\dimen174
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionski
+p \sbox \@tempboxa {#1. #2}\ifdim \wd \@tempboxa >\hsize #1. #2\par \else \glob
+al \@minipagefalse \hb@xt@ \hsize {\hfil \box \@tempboxa \hfil }\fi \vskip \bel
+owcaptionskip  on input line 1139.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count280
+\c@continuedfloat=\count281
+) (C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/diagbox/diagbox.sty
+Package: diagbox 2020/02/09 v2.3 Making table heads with diagonal lines
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/pict2e/pict2e.sty
+Package: pict2e 2020/09/30 v0.4b Improved picture commands (HjG,RN,JT)
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/pict2e/pict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: luatex.def on input line 112.
+Package pict2e Info: Driver file for pict2e: p2e-luatex.def on input line 114.
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/pict2e/p2e-luatex.def
+File: p2e-luatex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks25
+\@arclen=\dimen175
+\@arcrad=\dimen176
+\pIIe@tempdima=\dimen177
+\pIIe@tempdimb=\dimen178
+\pIIe@tempdimc=\dimen179
+\pIIe@tempdimd=\dimen180
+\pIIe@tempdime=\dimen181
+\pIIe@tempdimf=\dimen182
+)
+\diagbox@boxa=\box57
+\diagbox@boxb=\box58
+\diagbox@boxm=\box59
+\diagbox@wd=\dimen183
+\diagbox@ht=\dimen184
+\diagbox@insepl=\dimen185
+\diagbox@insepr=\dimen186
+\diagbox@outsepl=\dimen187
+\diagbox@outsepr=\dimen188
+) (C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pdftexcmds/pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/infwarerr/infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks26
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/kvsetkeys/kvsetkeys.s
+ty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/kvdefinekeys/kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pdfescape/pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/letltxmacro/letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+)
+\@linkdim=\dimen189
+\Hy@linkcounter=\count282
+\Hy@pagecounter=\count283
+ (C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperref-langp
+atches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
+nguages
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count284
+ (C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `unicode' set `true' on input line 3167.
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count285
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen190
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/bigintcalc/bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count286
+\Field@Width=\dimen191
+\Fld@charsize=\dimen192
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count287
+\c@Item=\count288
+\c@Hfootnote=\count289
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2021-06-07 v7.00m Hyperref driver for luaTeX
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/stringenc/stringenc.s
+ty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count290
+\c@bookmark@seq@number=\count291
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/uniquecounter/uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip57
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/pgfplots/pgfplots.sty
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.rev
+ision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/pgf/frontendlayer/tikz.
+sty
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgf.sty
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfrcs.st
+y
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil
+-common.tex
+\pgfutil@everybye=\toks27
+\pgfutil@tempdima=\dimen193
+\pgfutil@tempdimb=\dimen194
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil
+-common-lists.tex))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil
+-latex.def
+\pgfutil@abb=\box60
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfrcs.
+code.tex
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgfcore.
+sty
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/pgf/systemlayer/pgfsys.
+sty
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
+s.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys
+filtered.code.tex
+\pgfkeys@tmptoks=\toks30
+))
+\pgf@x=\dimen195
+\pgf@y=\dimen196
+\pgf@xa=\dimen197
+\pgf@ya=\dimen198
+\pgf@xb=\dimen199
+\pgf@yb=\dimen256
+\pgf@xc=\dimen257
+\pgf@yc=\dimen258
+\pgf@xd=\dimen259
+\pgf@yd=\dimen260
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count292
+\c@pgf@countb=\count293
+\c@pgf@countc=\count294
+\c@pgf@countd=\count295
+\t@pgf@toka=\toks31
+\t@pgf@tokb=\toks32
+\t@pgf@tokc=\toks33
+\pgf@sys@id@count=\count296
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgf.c
+fg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
+s-luatex.def
+File: pgfsys-luatex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count297
+\pgfsyssoftpath@bigbuffer@items=\count298
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+e.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.code
+.tex
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathcalc.
+code.tex
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathutil.
+code.tex)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen261
+\pgfmath@count=\count299
+\pgfmath@box=\box61
+\pgfmath@toks=\toks34
+\pgfmath@stack@operand=\toks35
+\pgfmath@stack@operation=\toks36
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.code.tex
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.basic.code.tex)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.trigonometric.code.tex)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.random.code.tex)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.comparison.code.tex)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.base.code.tex)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.round.code.tex)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.misc.code.tex)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.integerarithmetics.code.tex)))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count300
+))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfint.code.
+tex)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen262
+\pgf@picmaxx=\dimen263
+\pgf@picminy=\dimen264
+\pgf@picmaxy=\dimen265
+\pgf@pathminx=\dimen266
+\pgf@pathmaxx=\dimen267
+\pgf@pathminy=\dimen268
+\pgf@pathmaxy=\dimen269
+\pgf@xx=\dimen270
+\pgf@xy=\dimen271
+\pgf@yx=\dimen272
+\pgf@yy=\dimen273
+\pgf@zx=\dimen274
+\pgf@zy=\dimen275
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen276
+\pgf@path@lasty=\dimen277
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen278
+\pgf@shorten@start@additional=\dimen279
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box62
+\pgf@hbox=\box63
+\pgf@layerbox@main=\box64
+\pgf@picture@serial@count=\count301
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen280
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen281
+\pgf@pt@y=\dimen282
+\pgf@pt@temp=\dimen283
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen284
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen285
+\pgf@sys@shading@range@num=\count302
+\pgf@shadingcount=\count303
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box65
+))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box66
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen286
+\pgf@nodesepend=\dimen287
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgffor.st
+y
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfkeys.s
+ty
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys
+.code.tex))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/pgf/math/pgfmath.sty
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.code
+.tex))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgffor.
+code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.code
+.tex)
+\pgffor@iter=\dimen288
+\pgffor@skip=\dimen289
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
+))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count304
+\pgfplotmarksize=\dimen290
+)
+\tikz@lastx=\dimen291
+\tikz@lasty=\dimen292
+\tikz@lastxsaved=\dimen293
+\tikz@lastysaved=\dimen294
+\tikz@lastmovetox=\dimen295
+\tikz@lastmovetoy=\dimen296
+\tikzleveldistance=\dimen297
+\tikzsiblingdistance=\dimen298
+\tikz@figbox=\box67
+\tikz@figbox@bg=\box68
+\tikz@tempbox=\box69
+\tikz@tempbox@bg=\box70
+\tikztreelevel=\count305
+\tikznumberofchildren=\count306
+\tikznumberofcurrentchild=\count307
+\tikz@fig@count=\count308
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count309
+\pgfmatrixcurrentcolumn=\count310
+\pgf@matrix@numberofcolumns=\count311
+)
+\tikz@expandcount=\count312
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.cod
+e.tex
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotscore
+.code.tex
+Package pgfplots info on input line 124: Initializing with LUA version Lua 5.3
+\pgfplots@luabackend@table=\catcodetable14
+\t@pgfplots@toka=\toks39
+\t@pgfplots@tokb=\toks40
+\t@pgfplots@tokc=\toks41
+\pgfplots@tmpa=\dimen299
+\c@pgfplots@coordindex=\count313
+\c@pgfplots@scanlineindex=\count314
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/sys/pgfplots
+sysgeneric.code.tex))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/pgfplot
+slibrary.code.tex)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/oldpgfcompat
+ib/pgfplotsoldpgfsupp_loader.code.tex
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
+aryfpu.code.tex)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/luamath
+/pgflibraryluamath.code.tex)
+Package pgfplots info on input line 290: luamath library shipped with pgf 3.1.9
+a is up-to-date
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
+sutil.code.tex
+Package pgfplots info on input line 82: Found new luatex: initializing lua comm
+ands instead of write18 (shell-escape)
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
+e/pgfplotsliststructure.code.tex)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
+e/pgfplotsliststructureext.code.tex)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
+e/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count315
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
+e/pgfplotsmatrix.code.tex)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/numtable/pgf
+plotstableshared.code.tex
+\c@pgfplotstable@counta=\count316
+\t@pgfplotstable@a=\toks42
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
+e/pgfplotsdeque.code.tex)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
+sbinary.code.tex
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
+sbinary.data.code.tex))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
+sutil.verb.code.tex)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/pgflibr
+arypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count317
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/sys/pgflibra
+rypgfplots.surfshading.pgfsys-luatex.def)))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
+scolormap.code.tex
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
+scolor.code.tex))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsstac
+kedplots.code.tex)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsplot
+handlers.code.tex
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsmesh
+plothandler.code.tex
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsmesh
+plotimage.code.tex)))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.sca
+ling.code.tex)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotscoor
+dprocessing.code.tex)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.err
+orbars.code.tex)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.mar
+kers.code.tex)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotstick
+s.code.tex)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.pat
+hs.code.tex)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarydecorations.code.tex
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
+decorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen300
+\pgfdecoratedremainingdistance=\dimen301
+\pgfdecoratedinputsegmentcompleteddistance=\dimen302
+\pgfdecoratedinputsegmentremainingdistance=\dimen303
+\pgf@decorate@distancetomove=\dimen304
+\pgf@decorate@repeatstate=\count318
+\pgfdecorationsegmentamplitude=\dimen305
+\pgfdecorationsegmentlength=\dimen306
+)
+\tikz@lib@dec@box=\box71
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarydecorations.pathmorphing.code.tex
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/decorat
+ions/pgflibrarydecorations.pathmorphing.code.tex))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarydecorations.pathreplacing.code.tex
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/decorat
+ions/pgflibrarydecorations.pathreplacing.code.tex))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/tikzlib
+rarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count319
+\pgfplots@xmin@reg=\dimen307
+\pgfplots@xmax@reg=\dimen308
+\pgfplots@ymin@reg=\dimen309
+\pgfplots@ymax@reg=\dimen310
+\pgfplots@zmin@reg=\dimen311
+\pgfplots@zmax@reg=\dimen312
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
+aryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.sty
+\lst@mode=\count320
+\lst@gtempboxa=\box72
+\lst@token=\toks43
+\lst@length=\count321
+\lst@currlwidth=\dimen313
+\lst@column=\count322
+\lst@pos=\count323
+\lst@lostspace=\dimen314
+\lst@width=\dimen315
+\lst@newlines=\count324
+\lst@lineno=\count325
+\lst@maxwidth=\dimen316
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count326
+\lst@skipnumbers=\count327
+\lst@framebox=\box73
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/ulem/ulem.sty
+\UL@box=\box74
+\UL@hyphenbox=\box75
+\UL@skip=\skip58
+\UL@hook=\toks44
+\UL@height=\dimen317
+\UL@pe=\count328
+\UL@pixel=\dimen318
+\ULC@box=\box76
+Package: ulem 2019/11/18
+\ULdepth=\dimen319
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/tools/hhline.sty
+Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/totalcount/totalcount.s
+ty
+Package: totalcount 2018/01/21 v1.0a Total values of counters (AR)
+\c@totalcount@figure=\count329
+\c@totalcount@table=\count330
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count331
+\rotFPtop=\skip59
+\rotFPbot=\skip60
+\rot@float@box=\box77
+\rot@mess@toks=\toks45
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2021/09/03 v1.2n Refers to last page's name (HMM; JPG)
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/minted/minted.sty
+Package: minted 2021/12/24 v2.6 Yet another Pygments shim for LaTeX
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count332
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2022/06/06 4.5 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count333
+\FV@InFile=\read4
+\FV@TabBox=\box78
+\c@FancyVerbLine=\count334
+\FV@StepNumber=\count335
+\FV@OutFile=\write4
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count336
+\output=\toks46
+\linenoprevgraf=\count337
+\linenumbersep=\dimen320
+\linenumberwidth=\dimen321
+\c@linenumber=\count338
+\c@pagewiselinenumber=\count339
+\c@LN@truepage=\count340
+\c@internallinenumber=\count341
+\c@internallinenumbers=\count342
+\quotelinenumbersep=\dimen322
+\bframerule=\dimen323
+\bframesep=\dimen324
+\bframebox=\box79
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count343
+\c@FV@TrueTabCounter=\count344
+\FV@TabBox@Group=\box80
+\FV@TmpLength=\skip61
+\c@FV@HighlightLinesStart=\count345
+\c@FV@HighlightLinesStop=\count346
+\FV@LoopCount=\count347
+\FV@NCharsBox=\box81
+\FV@BreakIndent=\dimen325
+\FV@BreakIndentNChars=\count348
+\FV@BreakSymbolSepLeft=\dimen326
+\FV@BreakSymbolSepLeftNChars=\count349
+\FV@BreakSymbolSepRight=\dimen327
+\FV@BreakSymbolSepRightNChars=\count350
+\FV@BreakSymbolIndentLeft=\dimen328
+\FV@BreakSymbolIndentLeftNChars=\count351
+\FV@BreakSymbolIndentRight=\dimen329
+\FV@BreakSymbolIndentRightNChars=\count352
+\c@FancyVerbLineBreakLast=\count353
+\FV@LineBox=\box82
+\FV@LineIndentBox=\box83
+\FV@LineWidth=\dimen330
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/ifplatform/ifplatform.s
+ty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/catchfile/catchfile.s
+ty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/xstring/xstring.tex
+\integerpart=\count354
+\decimalpart=\count355
+)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+) (C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip62
+\fb@frw=\dimen331
+\fb@frh=\dimen332
+\FrameRule=\dimen333
+\FrameSep=\dimen334
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/newfloat/newfloat.sty
+Package: newfloat 2019/09/02 v1.1l Defining new floating environments (AR)
+Package newfloat Info: `rotating' package detected.
+)
+\minted@appexistsfile=\read5
+\minted@bgbox=\box84
+\minted@code=\write5
+\c@minted@FancyVerbLineTemp=\count356
+\c@minted@pygmentizecounter=\count357
+Package newfloat Info: New float `listing' with options `fileext=lol,placement=
+tbp' on input line 1190.
+\c@listing=\count358
+\newfloat@ftype=\count359
+Package newfloat Info: float type `listing'=8 on input line 1190.
+) (C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip63
+
+For additional information on amsmath, use the `?' option.
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks47
+\ex@=\dimen335
+))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen336
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count360
+LaTeX Info: Redefining \frac on input line 236.
+\uproot@=\count361
+\leftroot@=\count362
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count363
+\DOTSCASE@=\count364
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box85
+\strutbox@=\box86
+\big@size=\dimen337
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count365
+\c@MaxMatrixCols=\count366
+\dotsspace@=\muskip17
+\c@parentequation=\count367
+\dspbrk@lvl=\count368
+\tag@help=\toks48
+\row@=\count369
+\column@=\count370
+\maxfields@=\count371
+\andhelp@=\toks49
+\eqnshift@=\dimen338
+\alignsep@=\dimen339
+\tagshift@=\dimen340
+\tagwidth@=\dimen341
+\totwidth@=\dimen342
+\lineht@=\dimen343
+\@envbody=\toks50
+\multlinegap=\skip64
+\multlinetaggap=\skip65
+\mathdisplay@stack=\toks51
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/datavisualization/tikzlibrarydatavisualization.code.tex
+File: tikzlibrarydatavisualization.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
+datavisualization.code.tex
+File: pgfmoduledatavisualization.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
+oo.code.tex
+\pgfoo@objectcount=\count372
+\pgfoothis@count=\count373
+\pgfoo@toks=\toks52
+)
+\pgf@lib@dv@cache@count=\count374
+\pgf@lib@dv@cache@count=\count375
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@layerbox@background=\box87
+\pgf@layerboxsaved@background=\box88
+)
+\tikzdvvisualizercounter=\count376
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/datavisualization/tikzlibrarydatavisualization.formats.functions.co
+de.tex
+File: tikzlibrarydatavisualization.formats.functions.code.tex 2021/05/15 v3.1.9
+a (3.1.9a)
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/datavis
+ualization/pgflibrarydatavisualization.formats.functions.code.tex
+File: pgflibrarydatavisualization.formats.functions.code.tex 2021/05/15 v3.1.9a
+ (3.1.9a)
+))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/csvsimple/csvsimple.sty
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/l3keys2e/l3k
+eys2e.sty
+Package: l3keys2e 2021-11-12 LaTeX2e option processing using LaTeX3 keys
+)
+Package: csvsimple 2022/06/21 v2.3.1 LaTeX CSV file processing
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/csvsimple/csvsimple-leg
+acy.sty
+Package: csvsimple-legacy 2022/06/21 version 2.3.1 LaTeX2e CSV file processing
+\csv@file=\read6
+\c@csvinputline=\count377
+\c@csvrow=\count378
+\c@csvcol=\count379
+\csv@out=\write6
+)
+runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > rpz
+.aex <nul: /p x=^%~$PATH:i>> rpz.aex)...failed 
+runsystem(del rpz.aex)...executed
+
+
+LaTeX Warning: Unused global option(s):
+    [ut8x].
+
+(./rpz.aux (./tex/intro.aux) (./tex/analysis.aux) (./tex/design.aux
+
+LaTeX Warning: Label `lst:procops' multiply defined.
+
+) (./tex/impl.aux) (./tex/research.aux) (./tex/conclusion.aux)
+(./tex/bibliography.aux) (./tex/appendix.aux))
+\openout1 = rpz.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 145.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+45.
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Info: Redefining \th on input line 145.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 145.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 145.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 145.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 145.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 145.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 145.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 145.
+LaTeX Font Info:    Redeclaring math accent \check on input line 145.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 145.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 145.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 145.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 145.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 145.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 1
+45.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 145.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
+145.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
+input line 145.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
+ 145.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
+145.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 145.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 145.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
+input line 145.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
+e 145.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 145.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 145.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 483.69687pt, 28.45274pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-54.36449pt
+* \headheight=14.0pt
+* \headsep=25.0pt
+* \topskip=14.0pt
+* \footskip=30.0pt
+* \marginparwidth=15.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count380
+\scratchdimen=\dimen344
+\scratchbox=\box89
+\nofMPsegments=\count381
+\nofMParguments=\count382
+\everyMPshowfont=\toks53
+\MPscratchCnt=\count383
+\MPscratchDim=\dimen345
+\MPnumerator=\count384
+\makeMPintoPDFobject=\count385
+\everyMPtoPDFconversion=\toks54
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/00miktex/epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 145.
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/generic/gettitlestring/gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count386
+)
+LaTeX Info: Redefining \ref on input line 145.
+LaTeX Info: Redefining \pageref on input line 145.
+LaTeX Info: Redefining \nameref on input line 145.
+ (./rpz.out) (./rpz.out)
+\@outlinefile=\write7
+
+\openout7 = rpz.out
+
+Package pgfplots notification 'compat/show suggested version=true': you might b
+enefit from \pgfplotsset{compat=1.18} (current compat level: 1.9).
+
+\c@lstlisting=\count387
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 145.
+<inc/bmstu.png, id=99, 168.63pt x 198.7425pt>
+File: inc/bmstu.png Graphic file (type png)
+<use inc/bmstu.png>
+Package luatex.def Info: inc/bmstu.png  used on input line 148.
+(luatex.def)             Requested size: 50.58939pt x 59.6232pt.
+
+Overfull \hbox (26.40308pt too wide) in paragraph at lines 148--149
+[][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 149
+.
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 149
+.
+
+(C:/Users/nuraa/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+[1
+
+{C:/Users/nuraa/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<C:/Users/nuraa
+/AppData/Local/Programs/MiKTeX/tex/latex/bmstu-iu8/inc/bmstu.png>]
+(./rpz.toc)
+\tf@toc=\write8
+
+\openout8 = rpz.toc
+ [2] [3]
+\openout2 = tex/intro.aux
+ (./tex/intro.tex
+Overfull \hbox (3.36078pt too wide) in paragraph at lines 7--8
+[]\TU/TimesNewRoman(0)/m/n/14.4 Цель дан-ной ра-бо-ты – ре-
+а-ли-зо-вать за-гру-жа-е-мый мо-дуль яд-ра Linux, 
+предо-
+ []
+
+) [4
+
+
+]
+\openout2 = tex/analysis.aux
+ (./tex/analysis.tex [5
+
+
+
+]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 63.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 63--63
+[][][][][][][]  
+ []
+
+[6]
+Overfull \hbox (11.06348pt too wide) in paragraph at lines 86--87
+[]\TU/TimesNewRoman(0)/m/n/14.4 Од-ной из осо-бен-но-стей 
+яд-ра Linux яв-ля-ет-ся спо-соб-ность рас-ши-ре-
+ния функ-
+ []
+
+[7] [8]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 110--110
+[][][][][][][]  
+ []
+
+[9]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 141--141
+[][][][][][][]  
+ []
+
+[10]) [11]
+\openout2 = tex/design.aux
+ (./tex/design.tex
+Overfull \hbox (6.0pt too wide) in paragraph at lines 11--11
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 19--19
+[][][][][][][]  
+ []
+
+<jpg/01_A-0.png, id=290, 801.99625pt x 531.9875pt>
+File: jpg/01_A-0.png Graphic file (type png)
+<use jpg/01_A-0.png>
+Package luatex.def Info: jpg/01_A-0.png  used on input line 35.
+(luatex.def)             Requested size: 441.09929pt x 292.59402pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<jpg/02_A0.png, id=291, 801.99625pt x 531.9875pt>
+File: jpg/02_A0.png Graphic file (type png)
+<use jpg/02_A0.png>
+Package luatex.def Info: jpg/02_A0.png  used on input line 44.
+(luatex.def)             Requested size: 441.09929pt x 292.59402pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12
+
+
+
+]
+
+LaTeX Warning: Text page 13 contains only floats.
+
+[13<./jpg/01_A-0.png><./jpg/02_A0.png>]
+Overfull \hbox (0.80779pt too wide) in paragraph at lines 55--56
+\TU/TimesNewRoman(0)/m/n/14.4 зо-вые струк-ту-ры, необ-хо-
+ди-мые для раз-ра-бот-ки, а так-же бы-ли при-в
+е-де-ны IDEF0-
+ []
+
+) [14]
+\openout2 = tex/impl.aux
+ (./tex/impl.tex
+Overfull \hbox (6.0pt too wide) in paragraph at lines 14--14
+[][][][][][][]  
+ []
+
+[15
+
+
+
+]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 48--48
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 66--66
+[][][][][][][]  
+ []
+
+[16]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 95--95
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 103--103
+[][][][][][][]  
+ []
+
+[17]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 127--127
+[][][][][][][]  
+ []
+
+) [18] [19]
+\openout2 = tex/research.aux
+ (./tex/research.tex
+<jpg/1.png, id=475, 1238.6275pt x 473.77pt>
+File: jpg/1.png Graphic file (type png)
+<use jpg/1.png>
+Package luatex.def Info: jpg/1.png  used on input line 9.
+(luatex.def)             Requested size: 470.68335pt x 180.03447pt.
+<jpg/2.png, id=476, 793.96625pt x 573.14125pt>
+File: jpg/2.png Graphic file (type png)
+<use jpg/2.png>
+Package luatex.def Info: jpg/2.png  used on input line 18.
+(luatex.def)             Requested size: 317.58087pt x 229.25243pt.
+<jpg/3.png, id=477, 942.52126pt x 434.62375pt>
+File: jpg/3.png Graphic file (type png)
+<use jpg/3.png>
+Package luatex.def Info: jpg/3.png  used on input line 27.
+(luatex.def)             Requested size: 424.13065pt x 195.57887pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[20
+
+
+
+<./jpg/1.png><./jpg/2.png>]
+<jpg/memory_usage.png, id=489, 925.056pt x 450.2421pt>
+File: jpg/memory_usage.png Graphic file (type png)
+<use jpg/memory_usage.png>
+Package luatex.def Info: jpg/memory_usage.png  used on input line 38.
+(luatex.def)             Requested size: 508.78238pt x 247.63391pt.
+
+Overfull \hbox (25.08551pt too wide) in paragraph at lines 38--39
+ [] 
+ []
+
+[21<./jpg/3.png><./jpg/memory_usage.png>]) [22]
+\openout2 = tex/conclusion.aux
+ (./tex/conclusion.tex) [23
+
+
+
+]
+\openout2 = tex/bibliography.aux
+
+(./tex/bibliography.tex
+Underfull \hbox (badness 3364) in paragraph at lines 20--21
+[]\TU/TimesNewRoman(0)/m/n/14.4 The /proc/meminfo File in Linux [Элек-тр
+он-ный ре-сурс]. -- Ре-жим до-
+ []
+
+
+Underfull \hbox (badness 4353) in paragraph at lines 24--25
+[]\TU/TimesNewRoman(0)/m/n/14.4 include/uapi/linux/sysinfo.h - Linux source code
+ (v6.1.10) [Элек-трон-ный
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 28--29
+\TU/TimesNewRoman(0)/m/n/14.4 -- Ре-жим до-сту-па: []$\TU/lmtt/m/n/
+14.4 https://elixir.bootlin.com/linux/latest/source/
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 32--33
+\TU/TimesNewRoman(0)/m/n/14.4 -- Ре-жим до-сту-па: []$\TU/lmtt/m/n/
+14.4 https://elixir.bootlin.com/linux/latest/source/
+ []
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 36--37
+[]\TU/TimesNewRoman(0)/m/n/14.4 C99 standard note [Элек-трон-ный р
+е-сурс]. -- Ре-жим до-сту-па: []$\TU/lmtt/m/n/14.4 https://
+ []
+
+
+Underfull \hbox (badness 4713) in paragraph at lines 36--37
+\TU/lmtt/m/n/14.4 www.open-[]std.org/jtc1/sc22/wg14/www/docs/n1256.pdf$[] \TU/T
+imesNewRoman(0)/m/n/14.4 (да-та об-ра-ще-
+ []
+
+[24
+
+
+
+]) [25]
+\openout2 = tex/appendix.aux
+ (./tex/appendix.tex
+Overfull \hbox (6.0pt too wide) in paragraph at lines 3--3
+[][][][][][][]  
+ []
+
+[26
+
+
+
+] [27] [28]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 159--159
+[][][][][][][]  
+ []
+
+[29] [30]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 195--195
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 223--223
+[][][][][][][]  
+ []
+
+[31]) [32] 
+AED: lastpage setting LastPage
+(./rpz.aux (./tex/intro.aux) (./tex/analysis.aux) (./tex/design.aux)
+(./tex/impl.aux) (./tex/research.aux) (./tex/conclusion.aux)
+(./tex/bibliography.aux) (./tex/appendix.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `rpz.out' has not changed.
+(rerunfilecheck)             Checksum: C0EFBECC0E0485014109C24F8CBC84D5;5467.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 47135 strings out of 477867
+ 476961,1648299 words of node,token memory allocated
+ 672 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 29 attribute, 62 glue_spec
+, 16 attribute_list, 5 write, 5 pdf_action nodes
+   avail lists: 1:2,2:5735,3:298,4:248,5:12680,6:93,7:14782,8:99,9:21344,10:42,1
+1:1010
+ 65293 multiletter control sequences out of 65536+600000
+ 79 fonts using 19986383 bytes
+ 99i,12n,90p,1084b,834s stack positions out of 5000i,500n,10000p,200000b,80000s
+<//?/c:/users/nuraa/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmon
+o12-regular.otf><//?/c:/users/nuraa/appdata/local/programs/miktex/fonts/opentype
+/public/lm/lmmono10-italic.otf><//?/c:/users/nuraa/appdata/local/programs/miktex
+/fonts/opentype/public/lm/lmmono10-regular.otf><C:/Windows/Fonts/timesi.ttf><C:/
+Windows/Fonts/times.ttf><C:/Windows/Fonts/timesbd.ttf>
+Output written on rpz.pdf (32 pages, 632815 bytes).
+
+PDF statistics: 856 PDF objects out of 1000 (max. 8388607)
+ 498 named destinations out of 1000 (max. 131072)
+ 208 words of extra memory for PDF output out of 10000 (max. 100000000)
+
