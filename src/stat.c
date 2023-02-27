@@ -21,7 +21,11 @@ void print_memory_statistics(struct seq_file *m) {
         show_int_message(m, "Free:      \t\t\t%ld kB\n", convert_to_kb(mem_info_array[i].free));
         show_int_message(m, "Available: \t\t\t%ld kB\n", convert_to_kb(mem_info_array[i].available));
 		sys_occupied = convert_to_kb(info.totalram) - convert_to_kb(mem_info_array[i].available);
-		show_int_message(m, "Occupied: \t%ld kB\n", sys_occupied);
+        show_int_message(m, "Occupied: \t\t\t%ld kB\n", sys_occupied);
+        show_int_message(m, "Shared: \t\t\t%ld kB\n", convert_to_kb(mem_info_array[i].shared));
+        show_int_message(m, "Used by buffers: \t\t%ld kB\n", convert_to_kb(mem_info_array[i].buffers));
+        show_int_message(m, "Total HMA: \t\t\t%ld kB\n", convert_to_kb(mem_info_array[i].totalhigh));
+        show_int_message(m, "Free HMA: \t\t\t%ld kB\n", convert_to_kb(mem_info_array[i].freehigh));
     }
 
     EXIT_LOG();

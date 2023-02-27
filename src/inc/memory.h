@@ -10,6 +10,10 @@
 typedef struct mem_struct {
     long available;
     long free;
+    long shared;
+    long buffers;
+    long totalhigh;
+    long freehigh;
     long time_secs;
 } mem_info_t;
 

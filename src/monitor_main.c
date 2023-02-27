@@ -59,9 +59,13 @@ int memory_cnt_task_handler_fn(void *args) {
 
         mem_info_array[mem_info_calls_cnt].free = i.freeram;
         mem_info_array[mem_info_calls_cnt].available = si_mem_available();
+        mem_info_array[mem_info_calls_cnt].shared = i.sharedram;
+        mem_info_array[mem_info_calls_cnt].buffers = i.bufferram;
+        mem_info_array[mem_info_calls_cnt].totalhigh = i.totalhigh;
+        mem_info_array[mem_info_calls_cnt].freehigh = i.freehigh;
         mem_info_array[mem_info_calls_cnt++].time_secs = t.tv_sec;
 
-		ssleep(10);
+        ssleep(1);
 
 		if (signal_pending(worker_task)) {
 			break;
