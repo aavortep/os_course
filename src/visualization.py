@@ -47,8 +47,8 @@ def main():
     plt.ylabel('Memory usage (MB)')
 
     ax.plot(time_points, available_points, label='Available memory (MB)')
-    ax.plot(time_points, free_points, label='Free memory (MB)')
-    ax.plot(time_points, occupied_points, label='Occupied memory (MB)')
+    ax.plot(time_points, free_points, label='Free memory (MB)', linestyle='dashed')
+    ax.plot(time_points, occupied_points, label='Occupied memory (MB)', linestyle=':')
     ax.legend()
 
     #plt.ylim([min(occupied_points), total_memory])
